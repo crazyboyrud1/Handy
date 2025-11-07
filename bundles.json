@@ -1,0 +1,8 @@
+{
+    "manifest": [
+        {
+            "key": "assets/toolbox.bundle",
+            "dependencyKeys": []
+        }
+    ]
+}
