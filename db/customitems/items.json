@@ -84,6 +84,7 @@
                 "description": "Every homes got one of these, it has a black hole too that swallows 10mm sockets."
             }
         },
+			"addtoSecureFilters": true,
 			"addtoTraders": true,
 			    "traders": {
 			"MECHANIC": {
@@ -105,4 +106,5 @@
 	}
 	}
    }
+
 }
