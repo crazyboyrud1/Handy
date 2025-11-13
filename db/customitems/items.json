@@ -87,7 +87,7 @@
 			"addtoTraders": true,
 			    "traders": {
 			"MECHANIC": {
-        "6909dc36fd1315433d635222": {
+        "69134cc65f902c944a7c099b": {
           "barterSettings": {
             "loyalLevel": 1,
             "unlimitedCount": true,
@@ -107,4 +107,5 @@
    }
 
 }
+
 
