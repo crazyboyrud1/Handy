@@ -7,7 +7,7 @@ namespace _Handy_Toolbox
 {
     public record ModMetadata : AbstractModMetadata
     {
-        public override string ModGuid { get; init; } = "com.colo.handy_toolbox";
+        public override string ModGuid { get; init; } = "com.colo.handy.toolbox";
         public override string Name { get; init; } = "Handy Toolbox";
         public override string Author { get; init; } = "Colobos9mm";
         public override List<string>? Contributors { get; init; } = ["Colo"];
