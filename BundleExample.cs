@@ -11,7 +11,7 @@ namespace _Handy_Toolbox
         public override string Name { get; init; } = "Handy Toolbox";
         public override string Author { get; init; } = "Colobos9mm";
         public override List<string>? Contributors { get; init; } = ["Colo"];
-        public override SemanticVersioning.Version Version { get; init; } = new("0.9.9");
+        public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
         public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.1");
         public override List<string>? Incompatibilities { get; init; } = ["ReadJsonConfigExample"];
         public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
