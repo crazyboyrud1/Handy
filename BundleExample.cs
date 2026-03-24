@@ -5,32 +5,19 @@ using System.Reflection;
 
 namespace _Handy_Toolbox
 {
-    public record ModMetadata : AbstractModMetadata
+    public async Task OnLoad()
     {
-        public override string ModGuid { get; init; } = "com.colo.handy.toolbox";
-        public override string Name { get; init; } = "Handy Toolbox";
-        public override string Author { get; init; } = "Colobos9mm";
-        public override List<string>? Contributors { get; init; } = ["Colo"];
-        public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
-        public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.1");
-        public override List<string>? Incompatibilities { get; init; } = ["ReadJsonConfigExample"];
-        public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
-        public override string? Url { get; init; } = "http";
-        public override bool? IsBundleMod { get; init; } = true;
-        public override string? License { get; init; } = "MIT";
-    }
-
-    [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 0)]
-
-    public class HandyToolbox(
-        WTTServerCommonLib.WTTServerCommonLib wttCommon) : IOnLoad
-    {
-        public async Task OnLoad()
-        {
 
             Assembly assembly = Assembly.GetExecutingAssembly();
+
+        var assort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "db/assort.json");
+
+        AddCustomTraderHelper.OverwriteTraderAssort("5a7c2eca46aef81a7ca2145d", assort);
+
             await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
 
-        }
+        await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
+     
+        await Task.CompletedTask;
     }
 }
