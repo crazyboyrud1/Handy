@@ -7,7 +7,7 @@ public record ModMetadata : AbstractModMetadata
 {
     public override string ModGuid { get; init; } = "com.Benjamin.LittleFilter";
     public override string Name { get; init; } = "Little filter";
-    public override string Author { get; init; } = "Benjamin";
+    public override string Author { get; init; } = "crazyboyrud";
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
     public override Range SptVersion { get; init; } = new("4.0.13");
     public override string License { get; init; } = "MIT";
