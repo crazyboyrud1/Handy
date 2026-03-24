@@ -1,0 +1,28 @@
+{
+  "6977b2bdaac09b4b8743ccba": {
+    "itemTplToClone": "590c595c86f7747884343ad7",
+    "parentId": "54009119af1c881c07000029",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/items/item_quest_gp5.bundle",
+        "rcid": ""
+      },
+
+      "Width": 2,
+      "Height": 2,
+      "Weight": 1
+    },
+    "handbookPriceRoubles": 150000,
+    "fleaPriceRoubles": 150000,
+    "locales": {
+      "en": {
+        "name": "GP5_filter",
+        "shortName": "GP5",
+        "description": "A standard russian GP5 filter that is used on the standard issue shM62 gas mask filter."
+      }
+    },
+    "addtoTraders": false
+  }
+}

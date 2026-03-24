@@ -1,0 +1,10 @@
+{
+  "69949fd7688b8f5f3154f6ce": {
+    "path": "heads/chrishead.bundle",
+    "addHeadToPlayer": true,
+    "side": [ "Bear", "Usec" ],
+    "locales": {
+      "en": "Chris Redfield"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAssortAdder", "CustomAssortAdder.csproj", "{5354E259-79D1-5D43-2F40-285B493EA91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5354E259-79D1-5D43-2F40-285B493EA91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5354E259-79D1-5D43-2F40-285B493EA91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5354E259-79D1-5D43-2F40-285B493EA91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5354E259-79D1-5D43-2F40-285B493EA91D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52CDA9FC-3A22-4716-ACC9-6FEBC0C15BBE}
+	EndGlobalSection
+EndGlobal

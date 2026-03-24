@@ -1,0 +1,37 @@
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\db\CustomItems\items.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\Gas mask.staticwebassets.endpoints.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\bundles.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\Gas mask.deps.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\Gas mask.dll
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\Gas mask.pdb
+C:\SPT\Development\true filt\obj\Debug\Gas mask.csproj.AssemblyReference.cache
+C:\SPT\Development\true filt\obj\Debug\rpswa.dswa.cache.json
+C:\SPT\Development\true filt\obj\Debug\Gas mask.GeneratedMSBuildEditorConfig.editorconfig
+C:\SPT\Development\true filt\obj\Debug\Gas mask.AssemblyInfoInputs.cache
+C:\SPT\Development\true filt\obj\Debug\Gas mask.AssemblyInfo.cs
+C:\SPT\Development\true filt\obj\Debug\Gas mask.csproj.CoreCompileInputs.cache
+C:\SPT\Development\true filt\obj\Debug\Gas mask.sourcelink.json
+C:\SPT\Development\true filt\obj\Debug\rjimswa.dswa.cache.json
+C:\SPT\Development\true filt\obj\Debug\rjsmrazor.dswa.cache.json
+C:\SPT\Development\true filt\obj\Debug\rjsmcshtml.dswa.cache.json
+C:\SPT\Development\true filt\obj\Debug\scopedcss\bundle\Gas mask.styles.css
+C:\SPT\Development\true filt\obj\Debug\staticwebassets.build.json
+C:\SPT\Development\true filt\obj\Debug\staticwebassets.build.json.cache
+C:\SPT\Development\true filt\obj\Debug\staticwebassets.development.json
+C:\SPT\Development\true filt\obj\Debug\staticwebassets.build.endpoints.json
+C:\SPT\Development\true filt\obj\Debug\staticwebassets.upToDateCheck.txt
+C:\SPT\Development\true filt\obj\Debug\Gas mask.dll
+C:\SPT\Development\true filt\obj\Debug\refint\Gas mask.dll
+C:\SPT\Development\true filt\obj\Debug\Gas mask.pdb
+C:\SPT\Development\true filt\obj\Debug\ref\Gas mask.dll
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\db\assort.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\db\CustomQuests\5a7c2eca46aef81a7ca2145d\Locales\en.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\db\CustomQuests\5a7c2eca46aef81a7ca2145d\QuestAssort\assort.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\db\CustomQuests\5a7c2eca46aef81a7ca2145d\Quests\quest_definitions.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\db\CustomClothing\CustomClothing.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\bundles\assets\clothing\hands\hands_boss_killa.bundle
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\bundles\assets\clothing\tops\top_boss_tagilla.bundle
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\bundles\assets\items\item_quest_gp5.bundle
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\bundles\assets\clothing\bottoms\pants_boss_tagilla.bundle
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\db\CustomHeads\CustomHeads.json
+C:\SPT\Development\true filt\bin\Debug\Gas mask-0.0.1\bundles\assets\clothing\hands\hands_boss_takilla.bundle

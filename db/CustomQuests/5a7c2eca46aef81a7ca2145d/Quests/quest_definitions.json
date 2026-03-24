@@ -1,0 +1,108 @@
+{
+  "697ba0a9da80dc6ab7039305": { // the uniqe id for a quest 
+    "QuestName": "filter fetch",
+    "_id": "697ba0a9da80dc6ab7039305",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "PickUp", //what specific types of tasks Pickup includes is elimination, and handover
+    "location": "any",
+    "image": "/files/quest/icon/gas_mask_image.png",
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "697ba0a9da80dc6ab7039305 description",
+    "startedMessageText": "697ba0a9da80dc6ab7039305 startedMessageText",
+    "successMessageText": "697ba0a9da80dc6ab7039305 successMessageText",
+    "failMessageText": "697ba0a9da80dc6ab7039305 failMessageText",
+    "acceptPlayerMessage": "697ba0a9da80dc6ab7039305 acceptPlayerMessage",
+    "declinePlayerMessage": "697ba0a9da80dc6ab7039305 declinePlayerMessage",
+    "completePlayerMessage": "697ba0a9da80dc6ab7039305 completePlayerMessage",
+    "changeQuestMessageText": "697ba0a9da80dc6ab7039305 changeQuestMessageText",
+    "name": "697ba0a9da80dc6ab7039305 name",
+    "note": "697ba0a9da80dc6ab7039305 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        //The tasks that you need to complete to finsish quest
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673f0643303b750102967070",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 15000,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673f0668cb0fd5b0d77c4b59", //
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "56742c324bdc2d150f8b456d"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [ //requirements to start a task 
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "673f06ff34b14d74d21620c8",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+
+
+    //the rewards part of the custom tasks 
+    "rewards": {
+      "Fail": [ /* what the punishment is for failing a quest */ ],
+      "Started": [ /* What starter items,barter unlocks,or hideout crafts you get when you start out on the quest*/ ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "697ba6acda80dc6ab70398a0", //put a uniqe mongoid here it is the reward id 
+          "index": 2,
+          "items": [
+            {
+              "_id": "697ba76fda80dc6ab70398a1",
+              "_tpl": "6977b2bdaac09b4b8743ccba"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "697ba76fda80dc6ab70398a1",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    }
+  } 
+}
+  
